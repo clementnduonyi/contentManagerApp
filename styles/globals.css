@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.resource-form{
+  margin-top: 100px;
+}
+
+.active-resource{
+  background: #314aaa;
+  padding: 50px;
+  text-align: center;
+  color: #ffff;
+  height: 300px;
+}
+
+.active-resource .resource-name{
+  font-size: 30px;
+  height: 50px;
+}
+
+.active-resource .elapsed-time{
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.active-resource .time-wrapper{
+  height: 100px;
+}
+
+.tag.resource-inactive{
+  background-color: #fdf5e6;
+}
+
+.tag.resource-active{
+  background-color: #2d8dff;
+}
+
+.tag.resource-completed{
+  background-color: #0fd60f;
+}
